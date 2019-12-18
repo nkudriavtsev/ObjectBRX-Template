@@ -1,0 +1,8 @@
+sdkdir=/opt/bricsys/sdk/BRX19_SDK
+
+Name: brx19-sdk
+Description: Bricscad SDK
+Version: 19.2.5
+URL: https://bricsys.com
+Cflags: -I${sdkdir}/inc -I${sdkdir}/inc/Platform/substitutes
+Libs: -L${sdkdir}/lib64 -lbrx19 -lTD_Alloc -lTD_Root -Wl,--whole-archive ${sdkdir}/lib64/libdrx_entrypoint.a -Wl,--no-whole-archive
