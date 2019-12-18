@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "BRX19_SDK",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${env:BRX19_SDK_PATH}/inc/**",
+                "${env:BRX19_SDK_PATH}/inc/Platform/substitutes/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "intelliSenseMode": "gcc-x64",
+            "compilerArgs": [
+                "-DBRX_APP"
+            ]
+        }
+    ],
+    "version": 4
+}
